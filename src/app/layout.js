@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Blue Horizon",
   description: "Blue Horizon est une initiative engagée pour la préservation des océans et la lutte contre la pollution marine.",
+  icons: {
+    icon: "/logo.png", // Assure-toi que le fichier est dans `public/`
+  },
 };
 
 export default function RootLayout({ children }) {
